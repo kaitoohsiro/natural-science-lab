@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.math .math-title {
+    background-image: url("../../images/physicsblog.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 10%;
+}
+.math-title .title {
+    text-align: center;
+}
+.math-title .title h1 {
+    margin-top: 0;
+    font-size: 5em;
+}
+.math-title .word {
+    padding: 10px;
+}
+
+
+.card3 {
+    width: 60vw;
+    height: 30vh;
+    margin: 5% auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #ccc;
+}
+.box3 {
+    display: flex;
+}
+.image3 {
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+.title3 {
+    font-size: 150%;
+    margin: 10px;
+    color: #444;
+}
+.content3 {
+    padding: 10px;
+    margin: 0;
+    color: #666;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    background-color: #99ac9b;
+    width: 10%;
+    height: 15%;
+    text-align: center;
+    border-radius: 5px;
+}
+ul li a {
+    text-decoration: none;
+}
+.card3 a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .box3 {
+        display: block;
+    }
+    .image3 {
+        width: 80vw;
+        height: 30vh;
+        object-fit: cover;
+        border-radius: 5px 0 0 5px;
+    }
+    .card3 {
+        width: 80vw;
+        height: 50vh;
+        margin: 5% auto;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 3px 6px #ccc;
+    }
+}
