@@ -19,6 +19,6 @@ class DetailController extends Controller
     {
         $detailPost = $this->detailService->execute($postId);
 
-        return view('detail.detail', compact('detailPost'));
+        return view('Detail.Detail', compact('detailPost'));
     }
 }
