@@ -29,8 +29,8 @@
                                     <p class="title3">{{ $physics->title }}</p>
                                     <p class="content3">{{ $physics->excerpt }}</p>
                                 </div>
+                            </div>
                         </a>
-                        </div>
                     </div>
                 @endforeach
             </div>
