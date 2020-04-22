@@ -55,7 +55,7 @@ class ReadRepository
     {
         $detailPost = $this->model::where('id', '=', $postId)
             ->first();
-
+        $detailPost['body'] = strip_tags($detailPost['body']);
         return $detailPost;
     }
 }
