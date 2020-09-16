@@ -22,3 +22,4 @@ class DetailController extends Controller
         return view('Detail.Detail', compact('detailPost'));
     }
 }
+

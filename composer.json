@@ -16,7 +16,7 @@
         "laravel/tinker": "^2.0",
         "tcg/voyager": "^1.4",
         "ext-gd": "*",
-        "ext-exif":"*"
+        "ext-exif": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
